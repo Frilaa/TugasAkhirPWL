@@ -1,0 +1,99 @@
+/* src/pages/Login.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .login-box {
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    padding: 20px;
+    width: 800px;
+    background-color: #bf9797;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-image {
+    width: 400px;
+    height: 500px;
+    margin-left: auto; /* Menggunakan margin-left: auto untuk memindahkan gambar ke kanan */
+    border-radius: 10px;
+  }
+  
+  .login-form {
+    max-width: 300px;
+    width: 100%;
+    margin-left: 35px; /* Menambahkan margin kanan untuk menggeser form ke kiri */
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  
+  .password-wrapper {
+    position: relative;
+  }
+  
+  .password-wrapper input {
+    width: 100%;
+    padding-right: 30px;
+  }
+  
+  .password-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .register-prompt {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .register-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .register-link:hover {
+    text-decoration: underline;
+  }
+  

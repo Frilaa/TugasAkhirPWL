@@ -1,0 +1,94 @@
+.background {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    /* max-width: 600px; */
+    margin: 20px; /* Added margin for spacing */
+}
+
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.search-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; /* Align items at the top */
+    gap: 10px;
+}
+
+.form-item {
+    flex: 1 1 200px; /* Adjusted flex basis for better alignment */
+}
+
+.form-item label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.datetime-input {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.datetime-input select {
+    margin-left: 10px;
+}
+
+.search-form input, .search-form select {
+    width: calc(50% - 5px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.search-form button.cari-button {
+    width: 100px; /* Adjusted width for better alignment */
+    padding: 10px; /* Adjusted padding for smaller button */
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Adjusted font size */
+    margin-bottom: 10px;
+}
+
+.ruangan-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.ruangan-item {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.ruangan-item.available {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.ruangan-item.not-available {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}

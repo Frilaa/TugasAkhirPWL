@@ -1,0 +1,37 @@
+.home-page {
+    background-image: url('../assets/img/ibik.jpg'); /* Ganti dengan path gambar background */
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tagline-box {
+    background: rgba(243, 219, 219, 0.5);;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tagline-box h1 {
+    font-size: 20px; /* Ukuran font untuk heading */
+  }
+  
+  .tagline-box p {
+    font-size: 15px; /* Ukuran font untuk paragraf */
+    font-weight: 500;
+  }
+  
+  .check-availability-box {
+    background: rgba(123, 64, 64, 0.8);
+    color: white;
+    padding: 10px; /* Ukuran padding dikurangi */
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 7px; /* Ukuran font untuk teks dalam kotak */
+  }
+  
